@@ -1,0 +1,29 @@
+/* src/components/MovieCard.css */
+
+.movie-card {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.movie-poster {
+  width: 150px;
+  object-fit: cover;
+}
+
+.movie-details {
+  padding: 16px;
+  flex: 1;
+}
+
+.movie-title {
+  margin: 0 0 8px 0;
+}
+
+.movie-synopsis {
+  margin-top: 12px;
+  color: #555;
+}
